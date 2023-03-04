@@ -1,0 +1,14 @@
+body {
+    background-color: lightslategray;
+    color: white
+}
+.figure-container {
+    fill: transparent;
+    stroke: wheat;
+    stroke-width: 5px;
+    stroke-linecap: round;
+}
+
+.figure-part {
+    display: none;
+}
