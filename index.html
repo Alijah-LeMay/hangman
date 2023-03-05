@@ -12,15 +12,44 @@
                 <!-- Hanger -->
                 <line x1="60" y1="20" x2="140" y2="20"/> 
                 <line x1="140" y1="20" x2="140" y2="60"/> 
-                <line x1="60" y1="20" x2="140" y2="230"/> 
-                <line x1="20" y1="230" x2="120" y2="230"/> 
+                <line x1="60" y1="20" x2="120" y2="230"/> 
+                <line x1="30" y1="230" x2="120" y2="230"/> 
                 <!-- Person -->
-                <circle cx="140" cy="80" rw="20" class="figure-part" class="figure-part"></circle>
-                <line x1="140" y1="90" x2="140" y2="150" class="figure-part"/> 
-                <line x1="140" y1="120" x2="160" y2="100" class="figure-part"/> 
-                <line x1="140" y1="152" x2="120" y2="180" class="figure-part"/> 
+                <circle cx="140" cy="80" r="20" class="figure-part"></circle>
+                <!-- Body -->
+                <line x1="140" y1="100" x2="140" y2="150" class="figure-part"/> 
+                <!-- Arms -->
+                <line x1="140" y1="130" x2="120" y2="105" class="figure-part"/> 
+                <line x1="140" y1="130" x2="160" y2="105" class="figure-part"/> 
+                <!-- Legs -->
+                <line x1="140" y1="150" x2="120" y2="180" class="figure-part"/> 
                 <line x1="140" y1="150" x2="160" y2="180" class="figure-part"/> 
+
+                
+
             </svg>
+            <div class="wrong-letters-container">
+                <div class="wrong-letters">
+                </div>
+            </div>
+            <div class="word" id="word">
+               
+            </div>
         </div>
+        <div class="popup-container" id="popup-container">
+
+            <div class="popup"><h2 id="final-message">Winner winner Chicken Dinner
+
+            </h2> 
+            <button id="play-message">Play again</button>
+
+            <div class="notification-container" id="notification-container">
+
+                <p>You have tried this letter</p>
+            </div>
+            <div>
+        </div>
+
+<script src='index.js'></script>
     </body>
 </html>
